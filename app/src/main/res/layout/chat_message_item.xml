@@ -6,19 +6,19 @@
 
     </data>
 
-    <LinearLayout
-        android:orientation="horizontal"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/message_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#5EAAAAAA"
+            android:fontFamily="sans-serif-medium"
             android:padding="16dp"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
             tools:text="Hola" />
-    </LinearLayout>
+    </RelativeLayout>
 </layout>
